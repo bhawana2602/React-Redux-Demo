@@ -1,0 +1,150 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Table Component renders with data 1`] = `
+<table
+  border="1"
+  className="table"
+>
+  <thead>
+    <th
+      className="sc-AxjAm bKEskS"
+    >
+      First Name
+    </th>
+    <th
+      className="sc-AxjAm bKEskS"
+    >
+      Last Name
+    </th>
+    <th
+      className="sc-AxjAm bKEskS"
+    >
+      Email
+    </th>
+    <th
+      className="sc-AxjAm bKEskS"
+    >
+      Profile
+    </th>
+  </thead>
+  <tbody>
+    <tr>
+      <td
+        className="sc-AxirZ dKMvOG"
+      >
+        Byron
+      </td>
+      <td
+        className="sc-AxirZ dKMvOG"
+      >
+        Fields
+      </td>
+      <td
+        className="sc-AxirZ dKMvOG"
+      >
+        byron.fields@reqres.in
+      </td>
+      <td
+        className="sc-AxirZ dKMvOG"
+      >
+        <img
+          alt="profile"
+          height="40"
+          src="https://s3.amazonaws.com/uifaces/faces/twitter/russoedu/128.jpg"
+          width="40"
+        />
+      </td>
+    </tr>
+  </tbody>
+</table>
+`;
+
+exports[`Table Component renders with no data 1`] = `
+<table
+  border="1"
+  className="table"
+>
+  <thead>
+    <th
+      className="sc-AxjAm bKEskS"
+    >
+      First Name
+    </th>
+    <th
+      className="sc-AxjAm bKEskS"
+    >
+      Last Name
+    </th>
+    <th
+      className="sc-AxjAm bKEskS"
+    >
+      Email
+    </th>
+    <th
+      className="sc-AxjAm bKEskS"
+    >
+      Profile
+    </th>
+  </thead>
+  <tbody>
+    <tr>
+      <td
+        className="sc-AxirZ dKMvOG"
+      >
+        Byron
+      </td>
+      <td
+        className="sc-AxirZ dKMvOG"
+      >
+        Fields
+      </td>
+      <td
+        className="sc-AxirZ dKMvOG"
+      >
+        byron.fields@reqres.in
+      </td>
+      <td
+        className="sc-AxirZ dKMvOG"
+      >
+        <img
+          alt="profile"
+          height="40"
+          src="https://s3.amazonaws.com/uifaces/faces/twitter/russoedu/128.jpg"
+          width="40"
+        />
+      </td>
+    </tr>
+  </tbody>
+</table>
+`;
+
+exports[`Table Component renders without crashing 1`] = `
+<table
+  border="1"
+  className="table"
+>
+  <thead>
+    <th
+      className="sc-AxjAm bKEskS"
+    >
+      First Name
+    </th>
+    <th
+      className="sc-AxjAm bKEskS"
+    >
+      Last Name
+    </th>
+    <th
+      className="sc-AxjAm bKEskS"
+    >
+      Email
+    </th>
+    <th
+      className="sc-AxjAm bKEskS"
+    >
+      Profile
+    </th>
+  </thead>
+  <tbody />
+</table>
+`;
